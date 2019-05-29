@@ -1,0 +1,106 @@
+body {
+	background-image: ;
+	background-size: cover;
+	font-family: Verdana;
+	font-size: 20px;
+	margin: 0;
+	line-height: 24px;
+
+	
+}
+
+label{
+	text-align: center;
+	font-size: 25px;
+	font-color: white;
+	
+	
+}
+
+
+
+.navbar{
+	text-align: center;
+	width: 80%;
+	height: 20px;
+	background: blue;
+
+}
+
+.navbar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+h1{
+	text-align: center;
+}
+.navbar ul li a{
+	display: block;
+	padding: 25px;
+	color: white;
+	text-decoration: none;
+	width: 150px;
+	
+}
+
+.navbar ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.navbar ul li{
+	float: left;
+	list-style: none;
+
+}
+
+img{
+	height: 300px;
+	width: 300px;
+	text-decoration-style: center;
+	float: left; 
+	width: 30%; 
+	margin-right: 1%;
+	 margin-bottom: 0.5em;
+
+}
+
+* {
+    box-sizing: border-box;
+    align-content: right;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}

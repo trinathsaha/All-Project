@@ -1,0 +1,85 @@
+.foot-portion {
+    overflow: hidden;
+    color: black;
+    font-size: 15px;
+    line-height: 18px;
+}
+.foot_wrap_bg {
+    background: #282828;
+}
+.foot-middle-container {
+    overflow: hidden;
+    padding-bottom: 32px;
+}
+
+.big_menu_top a:hover {
+    color: #ffb300;
+}
+.big_menu .big_menu_top .all-menu ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;
+}
+@media only screen and (max-width: 800px) {
+    .foot_big_menu {
+        margin: 0 -16px;
+    }
+}
+    @media only screen and (max-width: 800px) {
+        .big_menu {
+            text-align: left;
+        }
+
+        .foot_big_menu, .foot_big_menu a {
+            color: #ccc;
+        }
+    }
+
+
+        .foot_big_menu, .foot_big_menu a {
+            color: #ccc;
+        }
+
+        @media only screen and (max-width: 800px) {
+            .big_menu .big_menu_bottom, .big_menu .big_menu_top {
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+        }
+        @media only screen and (max-width: 1050px) {
+            .container, .foot-bottom-container .foot-bottom, .foot-middle-container, .foot-top-container .foot-top, .header {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+        }
+            .big_menu .big_menu_top {
+                border-bottom: 1px solid #999;
+                overflow: hidden;
+                padding: 32px 0 44px;
+            }
+
+            .big_menu .big_menu_top .all-menu {
+                width: 83%;
+                float: left;
+                overflow: hidden;
+            }
+            @media only screen and (max-width: 800px) {
+                .big_menu .big_menu_bottom .bmenu_bottom_left, .big_menu .big_menu_bottom .bmenu_bottom_right, .big_menu .big_menu_top .all-menu, .big_menu .big_menu_top .special_menu, .single_album_gallery .info, .single_album_gallery .swiper-container {
+                    width: auto;
+                    float: none;
+                }
+            }
+                @media only screen and (max-width: 800px) {
+                    .big_menu .big_menu_top .all-menu ul li {
+                        width: 50%;
+                    }
+                }
+                    .big_menu .big_menu_top .all-menu ul li {
+                        float: left;
+                        display: block;
+                        width: 20%;
+                    }
+                    .foot_big_menu, .foot_big_menu a {
+                        color: #ccc;
+                    }

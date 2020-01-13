@@ -1,0 +1,128 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 30px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.container{
+  width: 100%;
+}
+
+.container > div .desc h3 {
+  color: white;
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+
+  font-size: 25px;
+  font-weight: bold;
+  visibility: visible;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container > div .desc h3:hover {
+  color: #ffb300;
+}
+
+.container > div {
+  color: #000;
+  position: relative;
+  bottom: 0;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container > div img {
+  position: relative;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+}
+img {
+  border: 0;
+}
+.design {
+  overflow: hidden;
+  background-color: #ddd;
+  position: fixed;
+  width: 100%;
+}
+
+.design li {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+.design li  a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 6px 4px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.design li a:hover {
+  background: dodgerblue;
+  color: black;
+  border-bottom-color: red;
+}
+.design li a:focus {
+  color: green;
+}
+.container h3{
+  text-align: left;
+  border-left-style: groove;
+  border-color: red;
+}
+
+.container > div .title-content a:link{
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+.container > div .title-content h5:hover{
+  color: dodgerblue;
+  cursor: pointer;
+}
+.container > div .news h6:hover{
+  color: dodgerblue;
+}
+.container > div .news:hover{
+  color: white;
+}
+
+
+
